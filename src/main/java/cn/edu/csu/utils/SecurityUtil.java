@@ -1,4 +1,4 @@
-package cn.edu.csu;
+package cn.edu.csu.utils;
 import java.security.Key;
 import java.security.SecureRandom;
 
