@@ -63,6 +63,16 @@ public class ArrayUtil {
 //		bubbleSort(arr);
 		selectSort(arr);
 		System.out.println(Arrays.toString(arr));
-		
 	}
+	/**
+	 * 复制long型数组
+	 * @param array
+	 * @return
+	 */
+	public static long[] clone(long[] array) {
+        if (array == null) {
+            return null;
+        }
+        return (long[]) array.clone();
+    }
 }
