@@ -75,4 +75,15 @@ public class ArrayUtil {
         }
         return (long[]) array.clone();
     }
+	/**
+	 * 复制数组
+	 * @param array
+	 * @return
+	 */
+	public static Object[] clone(Object[] array) {
+		if (array == null) {
+			return null;
+		}
+		return (Object[]) array.clone();
+	}
 }
