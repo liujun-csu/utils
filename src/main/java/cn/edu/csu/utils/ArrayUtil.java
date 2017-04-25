@@ -65,4 +65,10 @@ public class ArrayUtil {
 		System.out.println(Arrays.toString(arr));
 		
 	}
+	public static Object[] clone(Object[] array) {
+		if (array == null) {
+		    return null;
+		}
+		return (Object[]) array.clone();
+	}
 }
